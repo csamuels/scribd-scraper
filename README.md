@@ -34,7 +34,7 @@ By default, the script will download the document and save the compiled PDF in t
 const scrapeScribd = require('scribd-scraper');
 
 async function run() {
-  const url = '[https://pt.scribd.com/document/54073736/artigos-cientificos](https://pt.scribd.com/document/54073736/artigos-cientificos)';
+  const url = '[https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1](https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1)';
   
   try {
     console.log("Starting scraper...");
@@ -54,13 +54,13 @@ run();
 const scrapeScribd = require('scribd-scraper');
 
 async function run() {
-  const url = '[https://pt.scribd.com/document/54073736/artigos-cientificos](https://pt.scribd.com/document/54073736/artigos-cientificos)';
+  const url = '[https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1](https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1)';
   
   try {
     await scrapeScribd(url, {
       dir: 'downloads'
     });
-    console.log("Document saved in the ./downloads folder.");
+    console.log("Document saved in the downloads folder.");
   } catch (error) {
     console.error("Error:", error.message);
   }
@@ -77,7 +77,7 @@ If you only want the raw extracted pages (images or text blocks) and want to ski
 const scrapeScribd = require('scribd-scraper');
 
 async function run() {
-  const url = '[https://pt.scribd.com/document/477711709/1990-02-mara-maravilha-pdf](https://pt.scribd.com/document/477711709/1990-02-mara-maravilha-pdf)';
+  const url = '[https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1](https://pt.scribd.com/document/579474876/Livro-Dom-Quixote-Miguel-de-Cervantes-Ve-1)';
   
   try {
     await scrapeScribd(url, {
