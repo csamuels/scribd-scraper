@@ -1,6 +1,6 @@
 {
   "name": "scribd-scraper",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This tool scrapes Scribd, downloading images from pages",
   "main": "app.js",
   "scripts": {},
