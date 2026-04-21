@@ -58,7 +58,7 @@ async function run() {
   
   try {
     await scrapeScribd(url, {
-      dir: './downloads'
+      dir: 'downloads'
     });
     console.log("Document saved in the ./downloads folder.");
   } catch (error) {
@@ -81,7 +81,7 @@ async function run() {
   
   try {
     await scrapeScribd(url, {
-      dir: './raw_pages',
+      dir: 'raw_pages',
       pdf: false
     });
     console.log("Pages extracted successfully without generating a PDF.");
